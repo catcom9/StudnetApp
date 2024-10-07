@@ -23,11 +23,9 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", course='" + course + '\'' +
-                '}';
+        return "Name: " + name +
+                ", Email: " + email  +
+                ", Course: " + course;
     }
 
     public String getName() {
